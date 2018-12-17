@@ -1,0 +1,244 @@
+/* 
+    Document   : style
+    Created on : 03.07.2013, 13:10:24
+    Author     : Valentin
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+body, html{
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    color: #333;
+    background: #fefefe;
+    height: 100%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+}
+
+body{
+
+}
+
+h2{
+    font-size: 20px;
+    border-bottom: 1px solid #444;
+    text-align: center;
+    padding: 5px;
+}
+
+a{
+    color:#fff;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+.NonVis { 
+    display: none;
+}
+
+#Dialog {
+    z-index: 9999;
+    display: block;
+}
+
+#DialogBackground{
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: 0.5;
+    position: absolute;
+    top:0;
+    left:0;
+}
+
+#DialogFront{
+    width: 200px;
+    height: 100px;
+    margin-left: -100px;
+    margin-top: -50px;
+    background: #fff;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    padding-top: 20px;
+    box-shadow: 0 0 8px 2px #003;
+}
+
+.loadingText{
+    margin-top: 10px;
+}
+
+header{
+    margin: 0px auto 0;
+    width: 100%;
+    height: 50px;
+    background: -webkit-linear-gradient(bottom,#222, #444);
+    background: linear-gradient(0deg,#222, #444);
+    border-bottom: 1px solid #111;
+    color: #fff;
+    text-shadow: 2px 1px 0px #000;
+    text-align: center;
+}
+
+.headerTextReihe{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    vertical-align: middle;
+}
+
+.headerText{
+    display: inline-block;
+    padding: 8px;
+}
+
+.headerTextSmall{
+    font-size: 19px;
+}
+
+.headerTextLarge{
+    font-size: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#footer{
+    bottom: 0;
+    margin-bottom: 0px;
+    height:50px;
+    background: linear-gradient(0deg,#222, #444);
+    background: #333;
+    border-top: 1px solid #111;
+}
+
+#content{
+    margin: 0px auto 0;
+    margin-top: 25px;
+    width: 430px;
+}
+
+#Login{
+    width: 430px;
+}
+
+#workingPanel{
+    width: 430px;
+}
+
+#Login table{
+    margin-left:20px;
+}
+
+#loginLogin{
+    float:left;
+    width:430px;
+}
+
+#loginReg{
+    float:left;
+    width:430px;
+}
+
+.changer{
+    margin: 5px auto 0;
+    width: 401px;
+    height: 38px;
+    box-shadow: 0 0 8px 2px #003;
+    border-radius: 4px;
+    color:#fff;
+}
+.changerElement{
+    width: 200px;
+    height: 32px;
+    background: linear-gradient(0deg, #1E90FF, #4876FF);
+    background: #4876FF;
+    float:left;
+    text-align: center;
+    font-size: 18px;
+    padding-top: 6px; 
+    cursor: pointer;
+}
+
+.changerElementLeft{
+    border-radius: 4px 0px 0px 4px;
+    border-right: 1px solid #555;
+}
+
+.changerElementRight{
+    border-radius: 0px 4px 4px 0px;
+}
+
+.changeElementAktive{
+    background: #7AC5CD;
+    cursor: default;
+}
+
+.errorMessage{
+    color:red;
+    text-align: left;
+}
+
+#panelFoot{
+    border-top: 1px solid #555;
+    padding: 5px;
+}
+
+.link {
+    cursor: pointer;
+}
+
+#Send, #Watch{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.button{
+    border: 1px solid #888;
+    margin: 0px auto 0;
+    padding: 3px;
+    background: linear-gradient(0deg, #1E90FF, #4876FF);
+    background: #4876FF;
+    border-radius: 5px;
+    font-size: 18px;
+    color:#fff;
+    box-shadow: 0 0 8px 2px #003;
+    cursor: pointer;
+}
+
+.inputs{
+    border: 2px solid #1E90FF;
+    background-color: #FFF;
+    padding: 3px;
+    height: 16px;
+    border-radius: 4px;
+}
+
+.button:hover{
+    background: #7AC5CD;
+}
+
+#videoWatch{
+    height: 300px;
+    border: 1px solid #333;
+    box-shadow: 0 0 8px 2px #003;
+    border-radius: 1px;
+    width: 400px;
+    background: #000;
+}
+
+#videoWatchSmall{
+    height: 250px;
+    border: 1px solid #333;
+    box-shadow: 0 0 8px 2px #003;
+    border-radius: 1px;
+    width: 333px;
+    background: #000;
+}

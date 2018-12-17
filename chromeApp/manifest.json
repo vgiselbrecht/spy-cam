@@ -1,0 +1,17 @@
+{
+  "name": "SpyCam",
+  "description": "Mit diesem einzigartigen App können Sie die Webcam eines Computers oder Smartphones als Überwachungskamera nutzen.",
+  "version": "1.0",
+  "manifest_version": 2,
+  "icons": {
+    "128": "icon_128.png"
+  },
+  "app": {
+    "urls": [
+      "http://spy.gise.at/"
+    ],
+    "launch": {
+      "web_url": "http://spy.gise.at/"
+    }
+  }
+}
